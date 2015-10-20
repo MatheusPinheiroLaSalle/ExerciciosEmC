@@ -1,0 +1,2 @@
+# ExerciciosEmC
+Pratica em C
