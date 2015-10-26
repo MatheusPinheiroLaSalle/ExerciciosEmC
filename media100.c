@@ -2,16 +2,16 @@
 
 int main()
 {
-    int num=0,media;
+    int num,media;
+    media=0;
     
-    while(num <= 100)
-    
-    printf("%d - ", num++);
-    
-    media = (101*50)/2;
-       
-    printf("\n %d - ", media);
-    
+   for(num=0;num<=100;num++)
+    {
+    media=media+num;
+
+    }
+    media=media/100;
+    printf("Media %d ", media);
     
     return 0;
 }
