@@ -7,7 +7,7 @@ int main()
     numa=1;
     num=0;
     
-   for(numa=1;numa<=100;)
+   for(numa=1;numa<=10000;)
     {
     
     num=numa+nums;
